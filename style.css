@@ -23,8 +23,6 @@ footer {
   padding: 10px;
   text-align: center;
   color: #000000;
-  bottom: 0;
-  width: 100%;
 }
 
 main {
@@ -36,8 +34,6 @@ main {
 .grid-container {
   display: grid;
   grid-template-rows: repeat(3, 1fr);
-  gap: 10px;
-  padding: 10px;
 }
 
 .grid-item {
@@ -47,12 +43,17 @@ main {
   align-items: center;
   text-align: center;
   background-color: #8b6b42;
-  color: #ffffff;
+  color: #383737;
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
   padding: 20px;
+}
+
+.grid-item:nth-child(2) {
+  background-color: #660000;
+  color: #000000;
 }
 
 .grid-item:nth-child(3) {
