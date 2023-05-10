@@ -38,7 +38,7 @@
   section {
     flex: 1;
     display: flex;
-    justify-content: center;
+    
     align-items: center;
     text-align: center;
     color: #ffffff;
@@ -61,11 +61,5 @@
     background-image: url('galaxy.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-  }
-  
-  /* Ocultar las secciones del Nether y del End por defecto */
-  .nether,
-  .end {
-    display: none;
   }
   
