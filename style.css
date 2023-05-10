@@ -11,62 +11,34 @@ html, body {
 
 body {
   font-family: 'Minecraft', Arial, sans-serif;
-  background-color: #705645;
-  color: #ffffff;
   display: flex;
   flex-direction: column;
 }
 
-header {
-  background-color: #6ca65b;
-  padding: 10px;
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
-.content {
-  flex: 1;
-  padding: 20px;
+.overworld {
   background-color: #8b6b42;
 }
 
-h1 {
-  color: #000000;
-  text-align: center;
-  margin-bottom: 20px;
-  font-size: 36px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+.nether {
+  background-color: #660000;
 }
 
-h2 {
-  color: #000000;
-  margin-top: 40px;
-  font-size: 24px;
-}
-
-p {
-  margin-bottom: 15px;
-  font-size: 16px;
-  color: #5c5a5a;
-}
-
-a {
-  color: #5c5a5a;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-ul {
-  list-style-type: square;
-  margin-left: 20px;
-}
-
-footer {
-  background-color: #737373;
-  color: #ffffff;
-  padding: 10px;
-  text-align: center;
+.end {
+  background-color: #000000;
+  background-image: url('galaxy.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
