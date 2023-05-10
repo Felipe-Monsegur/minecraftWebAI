@@ -1,0 +1,79 @@
+/* Estilos CSS para personalizar tu página */
+@font-face {
+  font-family: 'Minecraft';
+  src: url('minecraft.ttf');
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Minecraft', Arial, sans-serif;
+}
+
+header {
+  background-color: #6ca65b;
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: #737373;
+  padding: 10px;
+  text-align: center;
+  color: #000000;
+  bottom: 0;
+  width: 100%;
+}
+
+main {
+  flex: 1;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #8b6b42;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 20px;
+}
+
+.grid-item:nth-child(3) {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.grid-item h2 {
+  margin-bottom: 10px;
+}
+
+.grid-item p {
+  margin-bottom: 20px;
+}
+
+.grid-item ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.grid-item ul li {
+  margin-bottom: 5px;
+}
