@@ -14,15 +14,19 @@ body {
 
 header {
   background-color: #6ca65b;
+  background-image: url(./assets/grassblock.png);
+  background-size: 300px;
   padding: 10px;
   text-align: center;
 }
 
 footer {
   background-color: #737373;
+  background-image: url(./assets/endportal.png);
+  background-size: 500px;
   padding: 10px;
   text-align: center;
-  color: #000000;
+  color: #ffffff;
 }
 
 main {
@@ -38,12 +42,14 @@ main {
 
 .grid-item {
   display: flex;
+  background-image: url(./assets/dirtblock.jpg);
+  background-size: 300px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   background-color: #8b6b42;
-  color: #383737;
+  color: #141414;
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
@@ -53,12 +59,16 @@ main {
 
 .grid-item:nth-child(2) {
   background-color: #660000;
-  color: #000000;
+  background-image: url(./assets/netherrack.jpg);
+  background-size: 300px;
+  color: #ff8624;
 }
 
 .grid-item:nth-child(3) {
   background-color: #000000;
-  color: #ffffff;
+  background-image: url(./assets/endportal.png);
+  background-size: 500px;
+  color: #f3ed9c;
 }
 
 .grid-item h2 {
